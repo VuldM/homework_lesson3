@@ -28,7 +28,7 @@ public class Program {
 
         Worker[] workers = new Worker[counter];
         for (int i = 0; i < workers.length; i++){
-            workers[i] = (Worker) generateEmployee();
+            workers[i] = (Worker) generateEmployee();// Сдесь у меня все ломается, а что делать я не знаю.
         }
         return workers;
     }
@@ -36,7 +36,7 @@ public class Program {
 
         Freelancer[] freelancers = new Freelancer[counter];
         for (int i = 0; i < freelancers.length; i++){
-            freelancers[i] = (Freelancer) generateEmployee();
+            freelancers[i] = (Freelancer) generateEmployee();// Сдесь у меня все ломается, а что делать я не знаю.
         }
         return freelancers;
     }
