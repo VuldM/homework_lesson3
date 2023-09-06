@@ -20,16 +20,20 @@ public class Employee implements Comparable<Employee> {
      * Ставка заработной платы
      */
     protected double salary;
+    protected  int ageEmployee;
 
     public double calculateSalary(){
         return salary;
     };
+public int calculateAge(){
+    return ageEmployee;
+}
 
-
-    public Employee(String surName, String name, double salary) {
+    public Employee(String surName, String name, double salary, int ageEmployee) {
         this.surName = surName;
         this.name = name;
         this.salary = salary;
+        this.ageEmployee = ageEmployee;
     }
 
     @Override
