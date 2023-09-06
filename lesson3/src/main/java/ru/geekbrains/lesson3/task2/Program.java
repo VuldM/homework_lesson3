@@ -46,7 +46,7 @@ public class Program {
             System.out.println(employee);
         }
 
-        Arrays.sort(employees, new ageComparator());
+        Arrays.sort(employees, new AgeComparator());
 
         System.out.println();
 
